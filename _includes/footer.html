@@ -12,7 +12,7 @@
                     <div class="columns">
                         <div class="column is-one-fifth-desktop is-one-fifth-fullhd is-one-quarter-tablet">
                             <figure class="image is-64x64">
-                                <img src="New_img\dark.png">
+                                <img class="is-rounded" src="New_img\dark.png">
                             </figure>
                         </div>
                         <div class="column is-marginless">
@@ -43,9 +43,9 @@
             <!--Blog-post Section-->
             <div class="column has-text-white">
                 <h3>Recent Posts</h3>
-                {% for post in site.posts offset: 0 limit:3 %}
+                {% for post in site.posts offset: 0 limit:2 %}
                 <li>
-                    <a href=""></a>
+                    <a href="New_blog\HTML 및 CSS\20207-3.html"></a>
                     <a href="New_blog\Project-1.html">자기 소개 페이지</a>
                 </li>
                 {% endfor %}
